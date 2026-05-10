@@ -2,10 +2,15 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "creating a project on backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "author": "mithlesh kumar thakur",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
+  }
 }
